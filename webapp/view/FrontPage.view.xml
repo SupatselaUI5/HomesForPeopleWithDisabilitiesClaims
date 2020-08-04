@@ -293,7 +293,7 @@
 				                    <content>
 				                        <sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" layout="ResponsiveGridLayout">
 				                            <sap.ui.layout.form:content>
-				                                <Table xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" noDataText="Click on the &quot;+&quot; Button to add items" id="HomesForPersons">
+				                                <Table xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" noDataText="Click on the &quot;+&quot; Button to add items" id="tblHPN">
 				                                    <columns>
 				                                        <Column>
 				                                            <header>
@@ -350,7 +350,7 @@
 				                </IconTabFilter>
 				                <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Special services" icon="sap-icon://crm-service-manager" iconColor="Critical" design="Horizontal">
 				                    <content>
-				                        <Table xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" noDataText="Click on the &quot;+&quot; Button to add items" id="SpecialService">
+				                        <Table xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" noDataText="Click on the &quot;+&quot; Button to add items" id="tblSpecialServices">
 				                            <columns>
 				                                <Column>
 				                                    <header>
@@ -403,7 +403,7 @@
 				                </IconTabFilter>
 				                <IconTabFilter xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="Summary of Staff" icon="sap-icon://family-care" design="Horizontal">
 				                    <content>
-				                        <Table xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" noDataText="Click on the &quot;+&quot; Button to add items" id="StaffSummary">
+				                        <Table xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" noDataText="Click on the &quot;+&quot; Button to add items" id="tblStaffSummary">
 				                            <columns>
 				                                <Column>
 				                                    <header>
