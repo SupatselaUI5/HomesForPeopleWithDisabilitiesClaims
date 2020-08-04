@@ -49,18 +49,18 @@ sap.ui.define([
 			}
 		},
 
-		onAddHomesForPersonsItem: function (oEvent) {
-			var oTable = this.byId("tblHomesForPersons");
+		onAddHPNItem: function (oEvent) {
+			var oTable = this.byId("tblHPN");
 			var columnListItemNewLine = new sap.m.ColumnListItem({
 				cells: [
 					new sap.m.Text({
-						text: sap.ui.getCore().byId("hpSurname").getValue()
+						text: sap.ui.getCore().byId("hpnSurname").getValue()
 					}),
 					new sap.m.Text({
-						text: sap.ui.getCore().byId("hpID").getValue()
+						text: sap.ui.getCore().byId("hpnID").getValue()
 					}),
 					new sap.m.Text({
-						text: sap.ui.getCore().byId("hpID").getValue()
+						text: sap.ui.getCore().byId("hpnAge").getValue()
 					})
 				]
 			});
@@ -68,8 +68,8 @@ sap.ui.define([
 			this.onCancel();
 		},
 
-		onAddSpecialServiceItem: function (oEvent) {
-			var oTable = this.byId("tblSpecialService");
+		onAddSpecialServicesItem: function (oEvent) {
+			var oTable = this.byId("tblSpecialServices");
 			var columnListItemNewLine = new sap.m.ColumnListItem({
 				cells: [
 					new sap.m.Text({
